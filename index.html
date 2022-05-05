@@ -274,11 +274,11 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                         
                         <tr>
                             <td>16:00 - 17:15 UTC</td>
-                            <td><b>Invited Demo: Patrick MacAlpine (Sony AI) </b><br/><em><a href="#talks">Outracing champion Gran Turismo drivers with deep reinforcement learning</a></em></td>
+                            <td><b>Invited Demo: Patrick MacAlpine (Sony AI) </b><br/><em><a href="#talks1">Outracing champion Gran Turismo drivers with deep reinforcement learning</a></em></td>
                         </tr>
                         <tr>
                             <td>17:15 - 18:30 UTC</td>
-                            <td><b>Invited Talk: Natasha Jaques (Google Brain & UC Berkeley) </b><br/><em><a href="#talks">Social Reinforcement Learning</a></em></td>
+                            <td><b>Invited Talk: Natasha Jaques (Google Brain & UC Berkeley) </b><br/><em><a href="#talks2">Social Reinforcement Learning</a></em></td>
                         </tr>
                         
                         
@@ -287,11 +287,11 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                     <table width="100%" >
                         <tr>
                             <td>07:00 - 08:15 UTC</td>
-                            <td><b>Invited Talk: Herke van Hoof (University of Amsterdam)</b><br/><em><a href="#talks">Learning agent policies with RL and structure</a></em></td>
+                            <td><b>Invited Talk: Herke van Hoof (University of Amsterdam)</b><br/><em><a href="#talks3">Learning agent policies with RL and structure</a></em></td>
                         </tr>
                         <tr>
                             <td>08:15 - 09:30 UTC</td>
-                            <td><b>Invited Talk: Bei Peng (University of Liverpool)</b><br/><em><a href="#talks"></a></em></td>
+                            <td><b>Invited Talk: Bei Peng (University of Liverpool)</b><br/><em><a href="#talks4">Cooperative Multi-Agent Reinforcement Learning</a></em></td>
                            
                         </tr>
                          <tr>
@@ -374,7 +374,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                     <h3>Invited Talks</h3>
                     
                     
-                    <h4>Natasha Jaques</h4>
+                    <h4 id='talks2'>Natasha Jaques</h4>
                     
                     <div style="width:100%;">
                         <div style="width:35%; float:left;"><img src="images/natashajaques.jpg" width="90%" image-orientation="from-image"></div>
@@ -388,11 +388,11 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                     
                     <p align="justify" class="bio"><b>Bio:</b> Natasha Jaques holds a joint position as a Senior Research Scientist at Google Brain and Visiting Postdoctoral Scholar at UC Berkeley. Her research focuses on Social Reinforcement Learning in multi-agent and human-AI interactions. Natasha completed her PhD at MIT, where her thesis received the Outstanding PhD Dissertation Award from the Association for the Advancement of Affective Computing. Her work has also received Best Demo at NeurIPS, an honourable mention for Best Paper at ICML, Best of Collection in the IEEE Transactions on Affective Computing, and Best Paper at the NeurIPS workshops on ML for Healthcare and Cooperative AI. She has interned at DeepMind, Google Brain, and was an OpenAI Scholars mentor. Her work has been featured in Science Magazine, Quartz, IEEE Spectrum, MIT Technology Review, Boston Magazine, and on CBC radio. Natasha earned her Masters degree from the University of British Columbia, and undergraduate degrees in Computer Science and Psychology from the University of Regina. More about Natasha, but more importantly her research, can be found on her website: <a href="https://natashajaques.ai " target="_blank">https://natashajaques.ai </a></p>
 
-                    <p align="justify" class="title"><b>Title:</b> Social Reinforcement Learning</a></p>
+                    <p align="justify" class="title" id='talks2'><b>Title:</b> Social Reinforcement Learning</a></p>
 
                     <p align="justify" class="abstract"><b>Abstract:</b> Social learning helps humans and animals rapidly adapt to new circumstances, coordinate with others, and drives the emergence of complex learned behaviors. What if it could do the same for AI? This talk describes how Social Reinforcement Learning in multi-agent and human-AI interactions can address fundamental issues in AI such as learning and generalization, while improving social abilities like coordination. I propose a unified method for improving coordination and communication based on causal social influence. I then demonstrate that multi-agent training can be a useful tool for improving learning and generalization. I present PAIRED, in which an adversary learns to construct training environments to maximize regret between a pair of learners, leading to the generation of a complex curriculum of environments. Agents trained with PAIRED generalize more than 20x better to unknown test environments. Finally, I demonstrate the difference between social learning and imitation learning, and present a method for selectively learning who and what to imitate by computing when following other agents’ policies would pay off under the learner’s own preferences. Together, this work argues that Social RL is a valuable approach for developing more general, sophisticated, and cooperative AI.  </a></p>
 
-                    <h4>Bei Peng</h4>
+                    <h4 id='talks4'>Bei Peng</h4>
                     
                     <div style="width:100%;">
                         <div style="width:35%; float:left;"><img src="images/beipeng.png" width="90%" image-orientation="from-image"></div>
@@ -404,9 +404,13 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                     
                     <p align="justify" class="bio"><b>Bio:</b> Bei Peng is currently a Lecturer (Assistant Professor) in the Department of Computer Science at the University of Liverpool. Her research focuses mainly on deep reinforcement learning, multi-agent systems, interactive machine learning, and curriculum learning. Prior to Liverpool, Bei was a Postdoctoral Researcher in reinforcement learning at the Whiteson Research Lab at the University of Oxford, and a Non-Stipendiary Lecturer in Computer Science at St Catherine's College. Bei received a B.S. in Computer Science from the Huazhong University of Science and Technology in China in 2012 and a Ph.D. in Computer Science from the Washington State University in 2018. </a></p>
 
+                    <p align="justify" class="title"><b>Title:</b> Cooperative Multi-Agent Reinforcement Learning</a></p>
+
+                    <p align="justify" class="abstract"><b>Abstract:</b> Many real-world learning problems involve multiple agents acting and interacting in the same environment to achieve some common goal, which can be naturally modelled as cooperative multi-agent systems. In this talk, I first overview some of the key challenges we focus on in cooperative multi-agent reinforcement learning. I then focus on discussing two of our recent work on addressing some of these challenges. In one work, we show how overestimation in deep multi-agent Q-learning can be more severe than previously acknowledged and can lead to divergent learning behaviour in practice. We propose a method that uses a new regularisation-based update scheme and an approximate softmax operator, to reduce the potential overestimation bias. In another work, we propose a deep multi-agent actor-critic method that uses a centralised but factored critic and a new centralised policy gradient, to enable more efficient and scalable learning in both discrete and continuous cooperative tasks. Finally, I present Multi-Agent MuJoCo, a new comprehensive benchmark suite that we developed, based on the popular single-agent MuJoCo benchmark, to allow the study of decentralised continuous control </a></p>
+
                     <p></p>
                     
-                    <h4>Patrick MacAlpine</h4>
+                    <h4 id='talks1'>Patrick MacAlpine</h4>
                     
                     <div style="width:100%;">
                         <div style="width:35%; float:left;"><img src="images/patrick.JPG" width="90%" image-orientation="from-image"></div>
@@ -420,7 +424,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
                     <p align="justify" class="abstract"><b>Abstract:</b> Many potential applications of artificial intelligence involve making real-time decisions in physical systems while interacting with humans. Automobile racing represents an extreme example of these conditions; drivers must execute complex tactical manoeuvres to pass or block opponents while operating their vehicles at their traction limits. Racing simulations, such as the PlayStation game Gran Turismo, faithfully reproduce the non-linear control challenges of real race cars while also encapsulating the complex multi-agent interactions. Here we describe how we trained agents for Gran Turismo that can compete with the world’s best e-sports drivers. We combine state-of-the-art, model-free, deep reinforcement learning algorithms with mixed-scenario training to learn an integrated control policy that combines exceptional speed with impressive tactics. In addition, we construct a reward function that enables the agent to be competitive while adhering to racing’s important, but under-specified, sportsmanship rules. We demonstrate the capabilities of our agent, Gran Turismo Sophy, by winning a head-to-head competition against four of the world’s best Gran Turismo drivers. By describing how we trained championship-level racers, we demonstrate the possibilities and challenges of using these techniques to control complex dynamical systems in domains where agents must respect imprecisely defined human norms. </a></p>
 
-                    <h4>Herke van Hoof </h4>
+                    <h4 id='talks3'>Herke van Hoof </h4>
                     
                     <div style="width:100%;">
                         <div style="width:35%; float:left;"><img src="images/herke.JPG" width="90%" image-orientation="from-image"></div>
